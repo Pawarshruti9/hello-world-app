@@ -10,7 +10,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 // Clone the Git repository
-                git branch: 'main', url: 'https://github.com/your-repo/hello-world-app.git'
+                git branch: 'main', url: 'https://github.com/Pawarshruti9/hello-world-app.git'
             }
         }
 
